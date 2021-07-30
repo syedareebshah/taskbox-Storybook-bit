@@ -1,0 +1,55 @@
+.main{
+    max-width: 500px;
+    background-color: rgb(174, 242, 247);
+    margin: 20px auto;
+    padding-bottom: 20px ;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0px 10px 5px 10px;
+}
+.icons{
+    margin-top: 20px;
+    padding: 5px;
+
+}
+.icons:hover{
+    margin-top: 20px;
+    background-color: rgba(245, 6, 6, 0.083);
+    color: red;
+    padding: 5px;
+    border-radius: 100px;
+}
+.pin{
+    margin-top: 20px;
+    padding: 5px;
+
+}
+.pin:hover{
+    margin-top: 20px;
+    background-color: rgba(7, 7, 7, 0.083);
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.pinned{
+    margin-top: 20px;
+    padding: 5px;
+    color: red;
+    background-color: rgba(255, 255, 0, 0.46);
+    border-radius: 100px;
+    border: solid rgb(202, 247, 0) 2px;
+
+
+}
+.pinned:hover{
+    background-color: rgba(242, 5, 5, 0.357);
+    color: yellow;
+
+
+}
